@@ -9,7 +9,7 @@ If the user enters the word "hello", the program should return the word "hello" 
 
 Exercise 2:
 
-Please write a program which counts and prints the numbers of each character, from file letters.txt.
+Please write a program which counts the occurrences of each character from file letters.txt and prints the result.
 
 Example:
 
