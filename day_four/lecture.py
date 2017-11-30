@@ -1,4 +1,23 @@
 
+def helloWorld():
+	print("hello world")
+
+helloWorld()
+
+def add(number1, number2):
+	number_sum = number1 + number2
+
+	return number_sum
+
+
+try:
+	user_input1 = int( input("Enter a number: ") )
+except ValueError:
+	user_input1 = 5
+
+print( add( user_input1 , 7 ) )
+
+
 class Car:
 	color = str()
 	make = str()
