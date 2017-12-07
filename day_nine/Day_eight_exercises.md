@@ -20,3 +20,11 @@ This program should have a menu that has the following options:
 	5. Exit (This should end the program. Selecting any other option should return you to the menu.)
 
 Before you write any code use a Schema Designer to figure out what tables you need and what columns each table needs.
+
+Exercise 3:
+
+Using the MVC format write a game that mimics Hangman (images not needed). 
+
+You should be able to enter a word/sentence and have other "players" begin guessing letters. On a correct guess all instances of that letter in the word/sentence should be revealed. On an incorrect guess the wrong letter is added to a tally of wrong guesses, the players only have 5 wrong guesses before a game over. 
+
+This does not need a database but you should have a class that models the hangman game's variables including the word, incorrect letters, and correct letters.
